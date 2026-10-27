@@ -4,9 +4,11 @@
     { "pattern": "^https://github.com/SyedRafiAhmedGIS" },
     { "pattern": "^https://www.youtube.com" },
     { "pattern": "^https://earthdata.nasa.gov" },
-    { "pattern": "^https://gis.stackexchange.com" }
+    { "pattern": "^https://gis.stackexchange.com" },
+    { "pattern": "^https://download.geofabrik.de" }
   ],
   "replacementPatterns": [],
+  "aliveStatusCodes": [200, 206, 301, 302, 303, 307, 308, 403, 405, 429, 520],
   "httpHeaders": [
     {
       "urls": ["https://"],
