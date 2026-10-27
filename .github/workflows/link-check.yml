@@ -1,0 +1,26 @@
+name: Link check
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Weekly, Mondays 04:23 UTC
+    - cron: "23 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check all Markdown links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: "yes"
+          use-verbose-mode: "no"
+          config-file: mlc_config.json

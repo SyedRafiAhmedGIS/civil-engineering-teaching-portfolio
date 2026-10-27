@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these teaching materials, please cite them as below."
+title: Civil Engineering Teaching Portfolio
+authors:
+  - family-names: Ahmed
+    given-names: Syed Rafi
+    alias: SyedRafiAhmedGIS
+    website: https://github.com/SyedRafiAhmedGIS
+version: 1.2.0
+date-released: "2026-10-26"
+license: MIT
+repository-code: "https://github.com/SyedRafiAhmedGIS/civil-engineering-teaching-portfolio"
+keywords:
+  - civil-engineering
+  - teaching-portfolio
+  - higher-education
+  - concrete-technology
+  - surveying
+  - gis
+  - google-colab
+  - lab-manual
+abstract: "Ready-to-teach materials for three civil engineering courses with a standards-aware concrete-testing toolkit and a verified resources index. Course documents are additionally licensed CC BY 4.0 (see LICENSE-CONTENT)."

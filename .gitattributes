@@ -1,0 +1,17 @@
+# Normalize line endings: LF in the repository, checked out per-OS
+* text=auto eol=lf
+
+# Source files always LF
+*.py text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+
+# Notebooks: keep JSON diffs readable but hide them from GitHub language stats
+*.ipynb text eol=lf linguist-documentation
+
+# Binary assets
+*.png binary
+*.gif binary
+*.jpg binary

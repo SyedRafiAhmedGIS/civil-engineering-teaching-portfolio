@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Test / coverage artifacts
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+
+# Build artifacts / secrets
+build/
+dist/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated figures
+figures/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
